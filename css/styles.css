@@ -1,1 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
 
+.data-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn {
+    background-color: #4CAF50;
+}
+
+.view-btn:hover {
+    background-color: #45a049;
+}
+
+.download-btn {
+    background-color: #008CBA;
+}
+
+.download-btn:hover {
+    background-color: #007399;
+}
+
+.filter-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.filter-input {
+    margin: 0 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4682B4;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.period-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.period-button {
+    background-color: #4682B4;
+    color: white;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.period-button.active {
+    background-color: #2E5984;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #4682B4;
+    background-color: white;
+    color: #4682B4;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.pagination button.active {
+    background-color: #4682B4;
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#grafica {
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
